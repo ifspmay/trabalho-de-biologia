@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    
+}
+
+header {
+    padding: 10px;
+    background-color: pink;
+}
+
+.coração{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    color: palevioletred;
+}
+
+.coração li{
+    margin-right: 5px;
+}
+
+main {
+    background-image: url(./images/a853d7eb18aefa22d5cd05b34fab5145.jpg);
+    height: 400px;
+}
+
+.trabalho {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(29, 29, 29);
+}
