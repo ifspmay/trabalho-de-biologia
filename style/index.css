@@ -28,6 +28,11 @@ div {
     align-items: center; 
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .idioma {
     padding: 20px;
     margin: 20px;
