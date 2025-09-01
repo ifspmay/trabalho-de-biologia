@@ -1,36 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto;
-    
-}
-
-header {
-    padding: 10px;
-    background-color: pink;
-}
-
-.coração{
-    display: flex;
-    list-style: none;
-    font-size: 20px;
-    color: palevioletred;
-}
-
-.coração li{
-    margin-right: 5px;
+    font-family: system-ui;
+   
 }
 
 main {
-    background-image: url(./images/a853d7eb18aefa22d5cd05b34fab5145.jpg);
-    height: 400px;
+    background: linear-gradient(to bottom, antiquewhite, rgba(255, 0, 85, 0.459));
+    background-color: antiquewhite;
+    height: 100vh;
+}
+   
+div {
+    text-align: center;
 }
 
-.trabalho {
-    padding: 10px;
-    text-align: center;
-    font-size: 12px;
-    color: rgb(29, 29, 29);
+.escolha {
+    margin: 20px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.idioma {
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    color: white;
+    background-color: rgb(216, 91, 139);
+    border-radius: 30px;   
+}
+
+.idioma:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+    background-color: rgb(216, 91, 139);
+}
+
+.titulo p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    padding-top: 50px;
+    color: rgb(216, 91, 139);
+    font-size: 50px;
+    font-family: sour gummy;
 }
